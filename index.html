@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy Buttons</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Srisakdi" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <img id="ImageLeft" src="https://media.giphy.com/media/AmTjK5o8BdnKo/giphy.gif">
+  <img id="ImageRight" src="https://media.giphy.com/media/3oD3Yu3OIV8xLgE7fy/giphy.gif">
+  <h1 id="marque">Giftastic Celeb Duos</h1>
+  <h4>Click the buttons to display GIPHYs of Celebs<br>Click the GIPHYs to pause and play<br>Search to add more buttons and Giffs.</h4>
+</div>
+
+<form class="form-inline" id="netflixSearch">
+  <div class="form-group">
+    <label for="getCeleb" class="searchCeleb">Search for celebs</label>
+    <input type="text" id="getCeleb">
+  </div>
+  <!-- Button triggers show to be added -->
+  <input id="addShow" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="show" data-search="Angelina Jolie">Angelina Jolie</button>
+      <button class="btn btn-primary" id="show" data-search="Biggie">Biggie</button>
+      <button class="btn btn-primary" id="show" data-search="Brad Pitt">Brad Pitt</button>
+      <button class="btn btn-primary" id="show" data-search="Tupac">Tupac</button>
+
+      <div id="myButtons"></div>
+    </div> 
+  </div> 
+</div> 
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> 
+</div> 
+
+ <!-- external JS file -->
+ <script src="assets/javescript/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>

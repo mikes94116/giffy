@@ -1,0 +1,62 @@
+#header {
+	background-color: #09c4e5;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+#marque {
+
+    font-family: 'Srisakdi', cursive;
+
+}
+
+#ImageLeft {
+	width: 15%;
+	float: left;
+	margin-left: 20px;
+}
+
+#ImageRight {
+	width: 20%;
+	float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+label {
+	font-size: 18px;
+}
+
+#show {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#getCeleb {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.celebGiphy {
+	padding: 2px;
+	width: 80%;
+}
+
+.searchCeleb {
+
+    position:relative;
+    bottom:25px;
+    margin-left:10px;
+
+}
