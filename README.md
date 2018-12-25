@@ -1,4 +1,4 @@
-# giffy
+# Giftastic... a cool giffy app!...
 
 An interesting and dynamic app that utilizes Giffy's API to deliver you cool Giffs, on demand! 
 
